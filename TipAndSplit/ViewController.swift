@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var themeSwitch: UISwitch!
     
     @IBOutlet weak var inputCardView: UIView!
-    @IBOutlet weak var billAmountTextField: UITextField!
+    @IBOutlet weak var billAmountTextField: BillAmountTextField!
     @IBOutlet weak var tipPercentSegmentedControl: UISegmentedControl!
     
     @IBOutlet weak var outputCardView: UIView!

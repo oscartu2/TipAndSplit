@@ -13,6 +13,7 @@
 		55EE4E89210FE7E60016530E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55EE4E88210FE7E60016530E /* Assets.xcassets */; };
 		55EE4E8C210FE7E60016530E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55EE4E8A210FE7E60016530E /* LaunchScreen.storyboard */; };
 		55EE4E97210FE7E60016530E /* TipAndSplitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EE4E96210FE7E60016530E /* TipAndSplitTests.swift */; };
+		55EE4EA2213923BE0016530E /* BillAmountTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EE4EA1213923BE0016530E /* BillAmountTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		55EE4E92210FE7E60016530E /* TipAndSplitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipAndSplitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55EE4E96210FE7E60016530E /* TipAndSplitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipAndSplitTests.swift; sourceTree = "<group>"; };
 		55EE4E98210FE7E60016530E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55EE4EA1213923BE0016530E /* BillAmountTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillAmountTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				55EE4E81210FE7E50016530E /* AppDelegate.swift */,
 				55EE4E83210FE7E50016530E /* ViewController.swift */,
 				55EE4E85210FE7E50016530E /* Main.storyboard */,
+				55EE4EA1213923BE0016530E /* BillAmountTextField.swift */,
 				55EE4E88210FE7E60016530E /* Assets.xcassets */,
 				55EE4E8A210FE7E60016530E /* LaunchScreen.storyboard */,
 				55EE4E8D210FE7E60016530E /* Info.plist */,
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55EE4E84210FE7E50016530E /* ViewController.swift in Sources */,
+				55EE4EA2213923BE0016530E /* BillAmountTextField.swift in Sources */,
 				55EE4E82210FE7E50016530E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
