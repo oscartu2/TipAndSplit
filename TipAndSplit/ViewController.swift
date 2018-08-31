@@ -15,6 +15,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var themeSwitch: UISwitch!
     
+    @IBOutlet weak var inputCardView: UIView!
+    @IBOutlet weak var billAmountTextField: UITextField!
+    @IBOutlet weak var tipPercentSegmentedControl: UISegmentedControl!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -32,6 +36,8 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBAction func tipPercentChanged(_ sender: UISegmentedControl) {
+    }
     
     
 }
