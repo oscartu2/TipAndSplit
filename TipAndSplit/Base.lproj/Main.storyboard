@@ -173,13 +173,17 @@
                                     <constraint firstItem="cdz-ju-P7v" firstAttribute="centerY" secondItem="vE0-3l-ATH" secondAttribute="centerY" id="l6q-I3-97b"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gth-Ag-6jq">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gth-Ag-6jq">
                                 <rect key="frame" x="15" y="583" width="345" height="60"/>
                                 <color key="backgroundColor" red="0.24313725490196078" green="0.29411764705882354" blue="0.56470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="pcF-YF-vjT"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                <state key="normal" title="RESET"/>
+                                <connections>
+                                    <action selector="resetButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZF5-Ym-xNC"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.95962192357512954" green="0.95962192357512954" blue="0.95962192357512954" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -207,9 +211,15 @@
                         <outlet property="billAmountTextField" destination="wgo-ff-8aq" id="ddp-SM-ljW"/>
                         <outlet property="headerView" destination="tcU-f7-aKz" id="cKM-ek-MT5"/>
                         <outlet property="inputCardView" destination="CHw-Us-6pm" id="myL-sV-UMc"/>
+                        <outlet property="outputCardView" destination="vE0-3l-ATH" id="gl3-tz-RCV"/>
+                        <outlet property="resetButton" destination="gth-Ag-6jq" id="a9Z-Zh-f3p"/>
                         <outlet property="themeSwitch" destination="qgI-eC-7gc" id="Gug-Av-6Me"/>
+                        <outlet property="tipAmountLabel" destination="lNA-2O-nBl" id="R7z-ei-IGx"/>
+                        <outlet property="tipAmountTitleLabel" destination="eKv-vX-Vov" id="VA3-7r-4u0"/>
                         <outlet property="tipPercentSegmentedControl" destination="LHj-PT-9M3" id="aIa-vg-0zX"/>
                         <outlet property="titleLabel" destination="UjM-cd-Gq9" id="Qb6-Pf-Vco"/>
+                        <outlet property="totalAmountLabel" destination="vM9-fv-BeC" id="2Va-Zq-ekC"/>
+                        <outlet property="totalAmountTitleLabel" destination="NPR-8I-hDC" id="5sD-MU-cMl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
